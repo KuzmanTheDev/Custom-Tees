@@ -6,6 +6,7 @@ var line1;
 var line2;
 var line3;
 var line4;
+
 $(document).ready(function () {
   //setup front side canvas
   canvas = new fabric.Canvas("tcanvas", {
