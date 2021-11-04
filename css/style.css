@@ -1,0 +1,69 @@
+.footer {
+  padding: 70px 0;
+  margin-top: 70px;
+  border-top: 1px solid #e5e5e5;
+  background-color: whiteSmoke;
+}
+body {
+  padding-top: 60px;
+}
+.color-preview {
+  border: 1px solid #ccc;
+  margin: 2px;
+  zoom: 1;
+  vertical-align: top;
+  display: inline-block;
+  cursor: pointer;
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+}
+.rotate {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+}
+.Arial {
+  font-family: "Arial";
+}
+.Helvetica {
+  font-family: "Helvetica";
+}
+.MyriadPro {
+  font-family: "Myriad Pro";
+}
+.Delicious {
+  font-family: "Delicious";
+}
+.Verdana {
+  font-family: "Verdana";
+}
+.Georgia {
+  font-family: "Georgia";
+}
+.Courier {
+  font-family: "Courier";
+}
+.ComicSansMS {
+  font-family: "Comic Sans MS";
+}
+.Impact {
+  font-family: "Impact";
+}
+.Monaco {
+  font-family: "Monaco";
+}
+.Optima {
+  font-family: "Optima";
+}
+.HoeflerText {
+  font-family: "Hoefler Text";
+}
+.Plaster {
+  font-family: "Plaster";
+}
+.Engagement {
+  font-family: "Engagement";
+}

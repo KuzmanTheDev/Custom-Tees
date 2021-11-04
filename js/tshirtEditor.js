@@ -1,5 +1,5 @@
 var canvas;
-var tshirts = new Array(); //prototype: [{style:'x',color:'white',front:'a',back:'b',price:{tshirt:'12.95',frontPrint:'4.99',backPrint:'4.99',total:'22.47'}}]
+var tshirts = new Array();
 var a;
 var b;
 var line1;
@@ -102,7 +102,7 @@ $(document).ready(function () {
       canvas.item(canvas.item.length - 1).hasRotatingPoint = true;
       $("#texteditor").css("display", "block");
       $("#imageeditor").css("display", "block");
-      //   alert('You pressed a "enter" key in textbox');
+      //   alert('You pressed the "enter" key in textbox');
     }
     //Stop the event from propogation to other handlers
     //If this line will be removed, then keypress event handler attached
