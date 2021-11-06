@@ -18,6 +18,20 @@ body {
   width: 20px;
   height: 20px;
 }
+#drawingArea {
+  position: absolute;
+  top: 100px;
+  left: 160px;
+  z-index: 10;
+  width: 200px;
+  height: 400px;
+}
+.shirt-wrapper {
+  width: 520px;
+  height: 600px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
 .rotate {
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
@@ -66,4 +80,34 @@ body {
 }
 .Engagement {
   font-family: "Engagement";
+}
+
+@media only screen and (max-width: 959px) {
+  .shirt-wrapper {
+    width: 450px;
+    height: 535px;
+  }
+  #drawingArea {
+    left: 125px;
+  }
+  #tcanvas {
+    height: 320px !important;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .large {
+    display: block;
+    color: black;
+    font-size: 30px;
+    font-family: monospace;
+  }
+  #typography {
+    display: none;
+  }
+}
+@media only screen and (min-width: 730px) {
+  .large {
+    display: none;
+  }
 }
